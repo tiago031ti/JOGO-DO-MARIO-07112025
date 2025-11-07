@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+
+    <title>Super Mario Game</title>
+</head>
+
+<body>
+    <div class="game-board">
+        <div class="score">0</div>
+        <div class="high-score">
+            HI
+            <span id="high-score">0</span>
+        </div>
+
+        <img src="./images/clouds.png" class="clouds">
+        <img src="./images/mario-starter.gif" class="mario">
+        <img src="./images/pipe.png" class="pipe">
+        <img src="./images/bullet.png" class="Obsbullet">
+        <img src="./images/turtle.gif" class="turtle">
+
+    </div>
+
+    <div>
+        <audio class="gamesound" src="sound/game.mp3"></audio>
+        <audio class="die" src="sound/mariodie.wav"></audio>
+        <audio class="jumpMario" src="sound/jump.wav"></audio>
+        <audio class="power" src="sound/powerup.wav"></audio>
+    </div>
+
+
+    <div class="game-over">
+        <p>Game over!</p>
+        <button class="retry">Tente Novamente</button>
+    </div>
+</body>
+
+</html>
